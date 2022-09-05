@@ -1,0 +1,37 @@
+/* * {
+  text-align: right;
+} */
+
+body {
+  background-image: url(backgroundimage.jpg);
+  background-size: cover;
+}
+h2 + p:hover {
+  color: #ff4f00;
+  text-align: center;
+  border: 5px solid rgba(149, 68, 0, 0.5);
+  cursor: pointer;
+}
+p {
+  color: pink;
+}
+p {
+  color: green;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.webtext:first-child {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+#div1 {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
